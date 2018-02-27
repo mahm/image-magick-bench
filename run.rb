@@ -3,8 +3,6 @@ require 'bundler/setup'
 Bundler.require(:default)
 require 'fileutils'
 
-MiniMagick.logger.level = Logger::DEBUG
-
 SAMPLES = {
   '625' => '625x417.jpg',
   '1250' => '1250x834.jpg',
